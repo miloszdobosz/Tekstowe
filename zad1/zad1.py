@@ -92,8 +92,12 @@ def kmp(text, pattern):
     return result
 
 
-text = "to jest tekst"
-pattern = "s"
+# text = "to jest tekst"
+# pattern = "s"
+
+file = open("1997_714.txt", "r")
+text = file.read()
+pattern = "art"
 
 print("TEXT:", text)
 print("PATTERN:", pattern)
